@@ -28,6 +28,10 @@ namespace StanSoft
         /// 文章发布时间
         /// </summary>
         public DateTime PublishDate { get; set; }
+        /// <summary>
+        /// 文章作者
+        /// </summary>
+        public string Editor { get; set; }
     }
 
     /// <summary>
